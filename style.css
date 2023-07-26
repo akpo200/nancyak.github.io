@@ -1,0 +1,94 @@
+/* Réinitialisation des styles par défaut du navigateur */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+  background-color: black;
+}
+
+header img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+header h1, header h2, header h3 {
+  color: white;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header h2 {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+header h3 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+section {
+  padding: 40px;
+}
+
+section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+ul {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Styles pour les projets */
+#projects .project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#projects img {
+  max-width: 300px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Styles pour le lien de contact */
+#contact p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: black;
+}
+
+#contact p a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+
+#contact p a:hover {
+  border-bottom: 2px solid white;
+}
